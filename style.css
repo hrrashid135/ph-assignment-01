@@ -1,0 +1,97 @@
+.navbar{
+    display : flex;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900; /* This applies the black weight */
+    color :blue;
+}
+.btn{
+    margin-right: 150px;
+    margin-top: 50px;
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+header{
+    background-image: url('Hero-bg.png');
+    width :1440px;
+    height: 698px;
+}
+.hero-content {
+    text-align: center;
+    margin:208px 265px 152px 265px;
+    width : 905px;
+    height: 237px;
+    
+    
+}
+.hero-text{
+    text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;  /* Bold weight */
+  font-size: 65px;
+
+}
+.hero-button{
+     width: 120px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.button-3{
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 23px;
+
+}
+.section-2{
+
+    margin :150px 150px 150px 150px;
+    width :1140px;
+    height :328px
+    
+}
+.section-tittle{
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.section-text{
+    font-sixe: 24px;
+    color: #252432;
+    margin : 62.5px 0px 62.5px 0px;
+    width: 517px;
+}
+.section-2-container{
+    display: flex;
+    justify-content: space-between;
+}
+.section-2-image{
+    border-radius: 25px;
+}
+/* .section-3{
+    margin: 116px 159px 137px 141px
+}
+.section-3-container{
+    margin :auto;
+}
+.section-numbers{
+    display: flex;
+} */
