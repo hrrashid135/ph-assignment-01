@@ -1,97 +1,151 @@
-.navbar{
-    display : flex;
-    justify-content: space-between;
-    
-    
-}
 .logo{
-    margin-left: 150px;
-    margin-top: 50px;
     font-family: 'Inter', sans-serif;
-    font-weight: 900; /* This applies the black weight */
-    color :blue;
+    font-weight: black;
+    color: #4E47FF;
+    font-size: 34px;
+    
 }
-.btn{
+.sign-up-button{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    width: 132px;
+    height: 48px;
+    
+    border-radius: 12px;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    width: 1140px;
+    height: 150px;
     margin-right: 150px;
-    margin-top: 50px;
-    width: 70px;
-    height: 30px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    
+    margin-left: 150px;
+    margin-top: 0px;
 }
-header{
-    background-image: url('Hero-bg.png');
-    width :1440px;
-    height: 698px;
+.header{
+   background-image: url('Hero-bg.png');
+   height: 698px;
+   max-width: 1440px;
+   margin-inline: auto;
+
 }
-.hero-content {
-    text-align: center;
-    margin:208px 265px 152px 265px;
-    width : 905px;
-    height: 237px;
+.hero{
+    width: 905px;
+    height: 227px;
     
-    
+    /* justify-content: center;
+    align-items: center; */
+   
+    /* margin-top: 158px; */
+    /* margin-bottom: 152px; */
+    /* margin-right: 267.5px;
+    margin-right: 267.5px; */
+    /* Set width of the element (optional) */
+    margin: 158px auto;
+
 }
 .hero-text{
+    /* justify-content: center; */
     text-align: center;
-
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;  /* Bold weight */
-  font-size: 65px;
-
+    text-wrap: wrap;
 }
-.hero-button{
-     width: 120px;
-    height: 30px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-
-}
-.button-3{
-    width: 150px;
-    height: 30px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-top: 23px;
-
+.stay-focused-button{
+    width: 174px;
+    height: 48px;
+    margin: auto;
+    display: block;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 14px;
 }
 .section-2{
-
-    margin :150px 150px 150px 150px;
-    width :1140px;
-    height :328px
+    width: 1140px;
+    height: 328px;
     
-}
-.section-tittle{
-    font-size: 42px;
-    margin-bottom: 23px;
-}
-.section-text{
-    font-sixe: 24px;
-    color: #252432;
-    margin : 62.5px 0px 62.5px 0px;
-    width: 517px;
-}
-.section-2-container{
+    margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
 }
-.section-2-image{
-    border-radius: 25px;
+.launch-live-preview{
+    width: 229px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 15px;
+
+     
 }
-/* .section-3{
-    margin: 116px 159px 137px 141px
+.section-2-text{
+    width: 517px ;
+    height: 203px ;
+    
+
+}
+.text{
+    text-wrap: wrap;
+}
+.img-1{
+    border-radius: 30px;
+}
+.section-2-heading{
+    font-weight: bold;
+    font-size: 42px;
+}
+.text{
+    font-weight: regular;
+    font-size: 24px;
+}
+.section-3-kpi-heading-text{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    
+    margin: 0px;
+
+}
+.section-3-kpi-text{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #000000;
+    opacity: 50%;
+    margin: 0px;
+}
+.section-3{
+    width: 1140px;
+    height: 406px;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 116px auto;
+    border-radius: 15px;
+    
+}
+.kpi{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px;
+    
+
 }
 .section-3-container{
-    margin :auto;
+    width: 856px;
+    height: 250px;
+    
+
+    
+
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
 }
-.section-numbers{
-    display: flex;
-} */
+.section-3-heading{
+    font-size: 38px;
+    font-weight: 600;
+}
