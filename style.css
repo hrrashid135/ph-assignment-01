@@ -260,7 +260,7 @@
 .input-box{
     width:495px;
     height: 77px;
-    background-color: #f5f8ff
+    background-color: #f5f8ff;
     padding :auto;
     border-radius: 15px;
     font-size: 18px;
@@ -277,4 +277,26 @@
 .jj{
     font-size: 18px;
     font-weight: bolder;
+}
+.section-7{
+    width: 1440px;
+    height: 328px;
+    background-color: #f5f8ff ;
+    margin:auto
+}
+.section-container{
+    margin:auto;
+    height: 221px;
+    width: 531px;
+    padding-top: 75px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.section-7-heading{
+    color:#4e47ff; 
+    font-size: 48px;
+    font-weight:bolder;
+    
 }
